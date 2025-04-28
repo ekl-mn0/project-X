@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML Navigator</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/ccf13ac9f1.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-book"></i> Пособие</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="project.html">Главная</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="testHTML.html">Тесты</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Подробнее
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="first.html">HTML</a></li>
+                    <li><a class="dropdown-item" href="second.html">CSS</a></li>
+<!--                      <li><hr class="dropdown-divider"></li>-->
+<!--                    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>-->
+                  </ul>
+                </li>
+<!--                <li class="nav-item">-->
+<!--                  <a class="nav-link disabled">Отключенная</a>-->
+<!--                </li>-->
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+                <button class="btn btn-outline-success" type="submit">Поиск</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+    </header>
+
+
+
+    <main>
+        <div class="container">
+            <h3 id="TEG" class="text-center">HTML. Теги и их использование</h3>
+            <div class="row justify-content-center">
+
+
+                <div class="col-md-6">
+                    <table class="map1">
+                        <th class="text-center" colspan="3"> Метаданные документа </th>
+                        <tr>
+                            <td> &lt;html&gt;&lt;/html&gt;</td>
+                            <td>корневой элемент html-документа</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;head&gt;&lt;/head&gt;</td>
+                            <td>контейнер для метаданных html-документа</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;title&gt;&lt;/title&gt;</td>
+                            <td>заголовок/ имя html-документа</td>
+                        </tr>
+                        <tr>
+                            <td> &lt;base&gt;</td>
+                            <td>базовый url-адрес, относительно которого вычисляются относительные адреса</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;link&gt;</td>
+                            <td>подключает внешние таблицы стилей</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;meta&gt;</td>
+                            <td>мета-данные веб-страницы</td>
+                        </tr>
+                        <tr>
+                            <td> &lt;style&gt;&lt;/style&gt;</td>
+                            <td>корневой элемент html-документа</td>
+                        </tr>
+                    </table>
+
+                    <table class="map1">
+                        <th class="text-center" colspan="3"> Группировка содержимого </th>
+                        <tr>
+                            <td> &lt;p&gt;&lt;/p&gt; </td>
+                            <td>параграфы в тексте</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;address&gt;&lt;/address&gt;</td>
+                            <td>контактные данные автора документа или статьи</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;hr&gt;&lt;/hr&gt;</td>
+                            <td>горизонтальная линия</td>
+                        </tr>
+                         <tr>
+                            <td> &lt;pre&gt;&lt;/pre&gt; </td>
+                            <td>выводит текст с пробелами и переносами</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;blockquote&gt;&lt;/blockquote&gt;</td>
+                            <td>большая цитата</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;ol&gt;&lt;/ol&gt;</td>
+                            <td>упорядоченный нумерованный список</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;ul&gt;&lt;/ul&gt;</td>
+                            <td>маркированный список</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;li&gt;&lt;/li&gt;</td>
+                            <td>элемент списка</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;dl&gt;&lt;/dl&gt;</td>
+                            <td>контейнер для термина и его описания</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;dt&gt;&lt;/dt&gt;</td>
+                            <td>задаёт термин</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;dd&gt;&lt;/dd&gt;</td>
+                            <td>расшифровывает термин</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;figure&gt;&lt;/figure&gt;</td>
+                            <td>независимый контейнер для такого контента как изображения, диаграммы и т.п.</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;figcaption&gt;&lt;/figcaption&gt;</td>
+                            <td>заголовок для элемента <figure></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;main&gt;&lt;/main&gt;</td>
+                            <td>контейнер для уникального основного содержимого в пределах одной страницы сайта</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;div&gt;&lt;/div&gt;</td>
+                            <td>контейнер для разделов html-документа, группирует блочные элементы</td>
+                        </tr>
+                    </table>
+
+                    <table class="map1">
+                        <th class="text-center" colspan="3"> Интерактивные элементы </th>
+                        <tr>
+                            <td> &lt;details&gt;&lt;/details&gt; </td>
+                            <td>контейнер с дополнительными сведениями, который можно открыть или закрыть</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;summary&gt;&lt;/summary&gt;</td>
+                            <td>видимый заголовок для элемента &lt;details&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;dialog&gt;&lt;/dialog&gt;</td>
+                            <td>диалоговое окно, инспектор или окно</td>
+                        </tr>
+
+                    </table>
+
+                    <table class="map1">
+                        <th class="text-center" colspan="3"> Встроенное содержимое </th>
+                        <tr>
+                            <td> &lt;picture&gt;&lt;/picture&gt; </td>
+                            <td>контейнер для одного &lt;img&gt; и ноль или больше &lt;source&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;source&gt;</td>
+                            <td>местоположение и тип альтернативных медиаресурсов для элементов &lt;picture&gt;, &lt;video&gt;, &lt;audio&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;img&gt;</td>
+                            <td>html-изображения</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;iframe&gt;&lt;/iframe&gt;</td>
+                            <td>создаёт встроенный фрейм</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;embed&gt;</td>
+                            <td>встраивает внешний интерактивный контент или плагин</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;object&gt;&lt;/object&gt;</td>
+                            <td>контейнер для встраивания мультимедиа</td>
+                        </tr>
+                         <tr>
+                            <td>&lt;param&gt;</td>
+                            <td>задаёт параметры для плагинов, встраиваемых с помощью элемента &lt;object&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;audio&gt;&lt;/audio&gt;</td>
+                            <td>добавляет аудио-файлы</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;video&gt;&lt;/video&gt;</td>
+                            <td>добавляет видео-файлы</td>
+                        </tr>
+                            <td>&lt;track&gt;</td>
+                            <td>субтитры для элементов &lt;audio&gt; и &lt;video&gt;</td>
+                        <tr>
+                            <td>&lt;map&gt;&lt;/map&gt;</td>
+                            <td>активные области на карте-изображении</td>
+                        </tr>
+                        </tr>
+                            <td>&lt;area&gt;</td>
+                            <td>гиперссылка с текстом или активная область внутри карты-изображения</td>
+                        <tr>
+                    </table>
+
+                    <table class="map1">
+                        <th class="text-center" colspan="3"> Семантика текста </th>
+                        <tr>
+                            <td> &lt;a&gt;&lt;/a&gt; </td>
+                            <td>гиперссылка</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;s&gt;&lt;/s&gt;</td>
+                            <td>перечёркивает неактуальный текст</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;time&gt;&lt;/time&gt;</td>
+                            <td>дата / время документа или статьи</td>
+                        </tr>
+                         <tr>
+                            <td> &lt;kbd&gt;&lt;/kbd&gt;</td>
+                            <td>текст, вводимый пользователем с клавиатуры</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;sub&gt;&lt;/sub&gt;</td>
+                            <td>подстрочное написание символов</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;sup&gt;&lt;/sup&gt;</td>
+                            <td>надстрочное написание символов</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;i&gt;&lt;/i&gt;</td>
+                            <td>выделяет текст <i>курсивом</i> без акцента</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;b&gt;&lt;/b&gt;</td>
+                            <td>задает <b>полужирное начертание отрывка текста,</b> без дополнительного акцента</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;u&gt;&lt;/u&gt;</td>
+                            <td>выделяет <u>отрывок текста подчёркиванием</u>, без дополнительного акцента</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;span&gt;&lt;/span&gt;</td>
+                            <td>контейнер для строчных элементов</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;br&gt;</td>
+                            <td>перенос текста на новую строку</td>
+                        </tr>
+                    </table>
+                </div>
+
+
+                <div class="col-md-6">
+                    <table class="map1">
+                        <th class="text-center" colspan="3"> Секционные элементы </th>
+                        <tr>
+                            <td> &lt;body&gt;&lt;/body&gt; </td>
+                            <td>тело html-документа</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;article&gt;&lt;/article&gt;</td>
+                            <td>раздел контента, образующий независимую часть документа или сайта</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;section&gt;&lt;/section&gt;</td>
+                            <td>логическая область (раздел) страницы, обычно с заголовком</td>
+                        </tr>
+                         <tr>
+                            <td> &lt;nav&gt;&lt;/nav&gt; </td>
+                            <td>раздел документа, содержащий навигационные ссылки по сайту</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;aside&gt;&lt;/aside&gt;</td>
+                            <td>контент страницы, имеющий косвенное отношение к основному контенту</td>
+                        </tr>
+                        <tr>
+                            <td><p>&lt;h1&gt;&lt;/h1&gt;</p> <p>&lt;h2&gt;&lt;/h2&gt;</p> <p.&lt;h3&gt;&lt;/h3&gt;</p> <p>&lt;h4&gt;&lt;/h4&gt;</p> <p>&lt;h5&gt;&lt;/h5&gt;</p> <p>&lt;h6&gt;&lt;/h6&gt;</p></td>
+                            <td>заголовки 6 уровней <h1>Hi, world!</h1> <h2>Hi, world!</h2> <h3>Hi, world!</h3> <h4>Hi, world!</h4> <h5>Hi, world!</h5> <h6>Hi, world!</h6></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;header&gt;&lt;/header&gt;</td>
+                            <td>секция для вводной информации сайта или группы навигационных ссылок</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;footer&gt;&lt;/footer&gt;</td>
+                            <td>секция для нижнего колонтитула документа или раздела</td>
+                        </tr>
+                    </table>
+
+                    <table class="map1">
+                        <th class="text-center" colspan="3"> Табличные данные </th>
+                        <tr>
+                            <td> &lt;table&gt;&lt;/table&gt; </td>
+                            <td>html-таблица</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;caption&gt;&lt;/caption&gt;</td>
+                            <td>?подпись к таблице?</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;colgroup&gt;&lt;/colgroup&gt;</td>
+                            <td>контейнер для одного или нескольких &lt;col&gt;</td>
+                        </tr>
+                         <tr>
+                            <td> &lt;col&gt; </td>
+                            <td>выбирает для форматирования столбцы</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;thead&gt;&lt;/thead&gt;</td>
+                            <td>блок заголовков таблицы</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;tbody&gt;&lt;/tbody&gt;</td>
+                            <td>тело таблицы</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;tfoot&gt;&lt;/tfoot&gt;</td>
+                            <td>нижний колонтитул таблицы</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;tr&gt;&lt;/tr&gt;</td>
+                            <td>строка таблицы</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;td&gt;&lt;/td&gt;</td>
+                            <td>ячейка таблицы</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;th&gt;&lt;/th&gt;</td>
+                            <td>заголовок столбца таблицы</td>
+                        </tr>
+                    </table>
+
+                    <table class="map1">
+                        <th class="text-center" colspan="3"> Скрипты </th>
+                        <tr>
+                            <td> &lt;script&gt;&lt;/script&gt; </td>
+                            <td>подключает сценарии к странице</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;noscript&gt;&lt;/noscript&gt;</td>
+                            <td>секция, не поддерживающая скрипт</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;template&gt;&lt;/template&gt;</td>
+                            <td>фрагменты HTML-кода, которые могут быть клонированы и вставлены в документ скриптом</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;canvas&gt;&lt;/canvas&gt;</td>
+                            <td>холст-контейнер для динамического отображения изображений</td>
+                        </tr>
+                    </table>
+
+                    <table class="map1">
+                        <th class="text-center" colspan="3"> Правки в тексте </th>
+                        <tr>
+                            <td> &lt;del&gt;&lt;/del&gt; </td>
+                            <td>перечёркивает текст, помечая как удаленный</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;ins&gt;&lt;/ins&gt;</td>
+                            <td>подчёркивает изменения в тексте</td>
+                        </tr>
+                    </table>
+
+                    <table class="map1">
+                        <th class="text-center" colspan="3"> Формы </th>
+                        <tr>
+                            <td> &lt;form&gt;&lt;/form&gt; </td>
+                            <td>html-форма</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;label&gt;&lt;/label&gt;</td>
+                            <td>текстовая метка для элемента &lt;input&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;input&gt;</td>
+                            <td>многофункциональные поля формы</td>
+                        </tr>
+                         <tr>
+                            <td> &lt;button&gt;&lt;/button&gt; </td>
+                            <td>интерактивная кнопка</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;select&gt;&lt;/select&gt;</td>
+                            <td>элемент управления с выбором значений из предложенных вариантов &lt;option&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;ol&gt;&lt;/ol&gt;</td>
+                            <td>упорядоченный нумерованный список</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;ul&gt;&lt;/ul&gt;</td>
+                            <td>маркированный список</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;li&gt;&lt;/li&gt;</td>
+                            <td>элемент списка</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;dl&gt;&lt;/dl&gt;</td>
+                            <td>контейнер для термина и его описания</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;dt&gt;&lt;/dt&gt;</td>
+                            <td>задаёт термин</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;dd&gt;&lt;/dd&gt;</td>
+                            <td>расшифровывает термин</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;figure&gt;&lt;/figure&gt;</td>
+                            <td>независимый контейнер для такого контента как изображения, диаграммы и т.п.</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;figcaption&gt;&lt;/figcaption&gt;</td>
+                            <td>заголовок для элемента <figure></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;main&gt;&lt;/main&gt;</td>
+                            <td>контейнер для уникального основного содержимого в пределах одной страницы сайта</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;div&gt;&lt;/div&gt;</td>
+                            <td>контейнер для разделов html-документа, группирует блочные элементы</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

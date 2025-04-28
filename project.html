@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTMLCSS Navigator</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/ccf13ac9f1.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-book"></i> Пособие</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="testHTML.html">Тесты</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Подробнее
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="first.html">HTML</a></li>
+                    <li><a class="dropdown-item" href="second.html">CSS</a></li>
+<!--                    <li><a class="dropdown-item" href="testHTML.html">test</a></li>-->
+<!--                      <li><hr class="dropdown-divider"></li>-->
+<!--                    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>-->
+                  </ul>
+                </li>
+
+              </ul>
+              <div class="d-flex">
+                <input id="searchInput" class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+                <button id="searchButton" class="btn btn-outline-success">Поиск</button>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+    </header>
+
+    <main id="searchableContent">
+<!--        <div class="container position-relative">-->
+<!--        <h2 id="gggg" class="position-absolute"></h2>-->
+        <img class="main-pic" src="Media/картинка2.jpg">
+<!--        </div>-->
+        <div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><a href="#html">HTML — это... </a></li>
+              <li class="list-group-item"><a href="#css">CSS — это... </a></li>
+              <li class="list-group-item"><a href="#History">История сайтов </a></li>
+            </ul>
+        </div>
+
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="card center col-md-10">
+                    <div class="card-header text-center">
+                        HTML
+                    </div>
+                    <div class="card-body">
+<!--                        <h5 class="card-title">Особое обращение с заголовком</h5>-->
+                        <p class="card-text">
+                            &emsp; <span class="poisk"> <span class="poisk">HTML (HyperText Markup Language)</span> — это стандартный язык разметки, используемый для создания и структурирования содержимого веб-страниц. Он служит основой для всех веб-сайтов и позволяет разработчикам организовывать текст, изображения, ссылки и другие элементы на странице. Самый первый сайт, созданный Тимом Бернерсом-Ли в 1991 году, был простым текстовым документом, написанным на языке HTML.</span>
+                        </p>
+                        <div class="text-center">
+                            <a href="first.html" class=" 000 btn btn-primary">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row justify-content-center">
+                <div class="card col-md-10">
+                    <div class="card-header text-center">
+                        CSS
+                    </div>
+                    <div class="card-body">
+<!--                        <h5 class="card-title">Особое обращение с заголовком</h5>-->
+                        <p class="card-text">
+                            &emsp; <span class="poisk"> <span class="poisk"> CSS (Cascading Style Sheets)</span> — это язык стилей, используемый для описания внешнего вида и форматирования веб-страниц, написанных на HTML. CSS позволяет отделить содержание (HTML) от визуального оформления, что делает разработку более организованной и гибкой.</span>
+                        </p>
+                        <div class="text-center">
+                            <a href="second.html" class="000 btn btn-primary">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row justify-content-center">
+                <h3 id="History" class="col-md-10 text-center">History</h3>
+                <div class="card mb-3 col-md-10">
+                    <h5 class="date">1991-1993</h5>
+                    <p>Самый первый сайт увидел свет 6 августа 1991 года. Для нашего избалованного глаза он выглядит совсем сухо. Но всё, что могли содержать первые в мире страницы — ссылки и текст.</p>
+                    <img id="firstweb" src="Media/the first web in the world.PNG" id="cartina" class="vit card-img-top" alt="...">
+                    <p>Так выглядел самый первый сайт, на нем вовсе не было иллюстраций, разноцветных текстов, интересных оформлений и тп. (его до сих пор <a href="https://info.cern.ch/hypertext/WWW/TheProject.html">можно посетить</a>)</p>
+                    <p>О красоте сайтов не говорили вплоть до 22 апреля 1993 года, когда выпустили первый графический браузер Mosaic, поддерживающий просмотр изображений. Так однообразный текст стали разбавлять яркими картинками. Разработчики сайтов этому очень обрадовались и решили впредь использовать все нововведения по максимуму. Иначе, зачем они вообще нужны?</p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="card mb-3 col-md-10">
+                    <h5 class="date">1994-1996</h5>
+                    <p>В этот период сайты начинают пестреть, как бразильский карнавал. Спасибо появлению цветных фонов. Такая новинка вызвала бурный восторг и не менее бурное использование ярких, кричащих цветов. Ходит легенда, что если посмотреть на некоторые из таких сайтов сейчас, можно ослепнуть. В эти годы, в добавок ко всему, появляется возможность добавления на сайт разных шрифтов, в частности Times New Roman и Courier New. Прогресс дошел и до размещения на страницах популярных сейчас GIF-изображений.</p>
+                    <img src="Media/bright web.PNG" class="vit card-img-top" alt="...">
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="card mb-3 col-md-10">
+                <h6>1997-1998</h6>
+                <p>Облик сайта начинает чуть более походить на привычный нам: сайты теперь строят на основе табличных макетов, добавляют эффекты и навигацию с иконками. Также активно развивается FLASH-технология, вследствие чего появляется возможность добавлять “мигающие” заставки. И с ними, как и с фонами ранее, порой начинается серьезный перебор. Помимо всего прочего, период характеризуется активной интеграцией маркетинга в дизайн. Чуть ли не на каждом сайте можно было увидеть кричащие рекламные баннеры с громкими лозунгами.</p>
+                    <img src="Media/yandex web.PNG" class=" vit card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="card mb-3 col-md-10">
+                <h6>1999-2003</h6>
+                <p>В начале XXI века в web-дизайне в моду входят скругленные углы, блестящие кнопки и градиенты. Фонами наигрались, и теперь они становятся однотонными. Можно сказать, они начинают выполнять свое прямое предназначение и перестают перетягивать на себя много внимания. Веб-сайты становятся намного функциональнее и обзаводятся более удобным пользовательским интерфейсом.</p>
+                    <img src="Media/durov web.JPG" class="vit card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="card mb-3 col-md-10">
+                <h6>2004-2006</h6>
+                <p>Да начнётся великая эпоха Web 2.0! В web-дизайне с приходом Web 2.0 стали отдавать предпочтение тени, глянцевости иконок и кнопок и мягким цветам интерфейсов. Также в тренде — упор на читаемый и функциональный контент и интеграция в ресурсы анимационного контента.</p>
+                    <img src="Media/era web2.JPG" class="vit card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="card mb-3 col-md-10">
+                <h6>2007-2010</h6>
+                <p>С этого периода начинается активное развитие мобильных веб-приложений и вместе с этим, появляются мобильные веб-сайты. Отсюда прослеживается тенденция развития такого явления, как “адаптивность”. Разрабатываются первые социальные сети и, как следствие, получает распространение размещение их иконок на сайтах. Активно внедряются длинные макеты сайтов. Широкое распространение получают стоковые фотографии и такое явление, как скевоморфизм (это направление в дизайне пользовательских интерфейсов, использующее имитацию внешнего вида и поведения настоящих объектов).</p>
+                    <img src="Media/fruits web.PNG" class="vit card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="card mb-3 col-md-10">
+                <h6>2011-2014</h6>
+                <p>Недолго дизайнеры баловались использованием новинок разных периодов, когда осознали, что лучший выбор — простота. И тогда начинает все больше развиваться сердечная любовь к минимализму. В этот период также появляются такие дизайн-тренды, как плоский дизайн и параллакс. Особое внимание продолжают уделять адаптивности сайтов.</p>
+                    <img src="Media/minimalistic web.PNG" class="vit card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="card mb-3 col-md-10">
+                <h6>2015-2016</h6>
+                <p>В это время мир веб-дизайна остановился на выборе материального дизайна, высокого разрешения графики на страницах, а также стала внедряться интерактивность. Особую популярность получили видеоконтент и скроллджекинг. Дизайнеры стали делать упор на индивидуальность, а посему в предпочтение вывели уникальную графику и авторские иллюстрации. Собственно, большинство сайтов, которые мы сейчас посещаем являются представителями именно этого периода.</p>
+            </div>
+        </div>
+
+            <div class="row justify-content-center">
+                <div class="card mb-3 col-md-10">
+                <h6>Наши дни</h6>
+                <p>С 2016 года продолжается развитие идей плоского дизайна, минимализма, parallax-эффектов. На первый план ставится удобство использования сайтом. Сайты прошли 30 лет развития: от простых сайтов на чистом HTML с табличной версткой до сложных сайтов с использованием HTML5, CSS, JavaScript. Одно же остается неизменным – задача донести информацию до пользователя.</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('searchInput');
+    const searchButton = document.getElementById('searchButton');
+    const clearButton = document.getElementById('clearButton');
+    const searchableContent = document.getElementById('searchableContent');
+
+    let currentMatchIndex = -1;
+    let matches = [];
+
+    function performSearch() {
+        clearHighlights();
+
+        const searchTerm = searchInput.value.trim();
+        if (!searchTerm) {
+            return;
+        }
+
+        const text = searchableContent.textContent;
+        const regex = new RegExp(escapeRegExp(searchTerm), 'gi');
+
+        let html = searchableContent.innerHTML;
+
+        html = html.replace(regex, match =>
+            `<span class="highlight">${match}</span>`
+        );
+
+        searchableContent.innerHTML = html;
+
+        matches = Array.from(document.querySelectorAll('.highlight'));
+
+        if (matches.length > 0) {
+            currentMatchIndex = 0;
+            scrollToMatch(currentMatchIndex);
+        } else {
+            currentMatchIndex = -1;
+        }
+    }
+
+    function clearHighlights() {
+        const highlights = document.querySelectorAll('.highlight');
+        highlights.forEach(highlight => {
+            const parent = highlight.parentNode;
+            parent.replaceChild(document.createTextNode(highlight.textContent), highlight);
+            parent.normalize();
+        });
+
+        matches = [];
+        currentMatchIndex = -1;
+    }
+
+    function scrollToMatch(index) {
+        if (index >= 0 && index < matches.length) {
+            matches.forEach(match => match.classList.remove('active'));
+
+            matches[index].classList.add('active');
+            matches[index].scrollIntoView({
+                behavior: 'smooth',
+                block: 'center'
+            });
+        }
+    }
+
+    function escapeRegExp(string) {
+        return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    }
+
+    searchButton.addEventListener('click', performSearch);
+
+    searchInput.addEventListener('keyup', function(e) {
+        if (e.key === 'Enter') {
+            performSearch();
+        }
+    });
+
+    document.querySelector('input[type="search"]').addEventListener('input', function(e) {
+        if (e.target.value === '') {
+            clearHighlights();
+        }
+    });
+});
+    </script>
+
+</body>
+</html>
